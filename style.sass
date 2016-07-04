@@ -1,0 +1,41 @@
+body
+	background: radial-gradient(top,#DCEDC1,#A8E6CF) no-repeat
+	background: -webkit-radial-gradient(top,#DCEDC1,#A8E6CF) no-repeat
+	background: -moz-radial-gradient(top,#DCEDC1,#A8E6CF) no-repeat
+	background: -o-radial-gradient(top,#DCEDC1,#A8E6CF) no-repeat
+	font-family: 'Cabin', sans-serif
+
+h1, h3	
+	font-family: 'Playfair Display', sans-serif
+
+.content-block 
+	background-color: rgba(#fff,.9)
+	border-radius: 5px
+	box-shadow: 0 0 10px rgba(#000,.1)
+	padding: 20px
+	margin: 20px auto
+
+	p
+		line-height: 1.5em
+		&.timeline
+			border-left: 3px solid #A8E6CF
+			padding-left: 10px
+			span
+				display: block
+				margin: 10px 0
+				position: relative
+				&:before
+					content: '•'
+					position: absolute
+					left: -16px
+					top: -2px
+					font-size: 2.2em
+					color: #FF8B94
+		
+	blockquote
+		border-color: #DCEDC1
+		font-family: 'Playfair Display', sans-serif
+	
+	.thumbnail
+		.caption
+			color: #999
